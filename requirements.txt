@@ -31,7 +31,6 @@ keyrings.alt==3.0
 Mako==1.0.7
 MarkupSafe==1.1.1
 numpy==1.13.3
-PAM==0.4.2
 psycopg2==2.7.4
 psycopg2-binary==2.8.1
 pyasn1==0.4.2
