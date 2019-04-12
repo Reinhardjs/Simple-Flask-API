@@ -4,6 +4,8 @@ from dotenv import load_dotenv
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 
+#DATABASE_URI="postgres://reinhard:password@localhost:5432/apidatabase"
+
 dotenv_path = join(dirname(__file__), '.env')
 load_dotenv(dotenv_path)
 
