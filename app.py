@@ -5,6 +5,8 @@ from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 
 #DATABASE_URI="postgres://reinhard:password@localhost:5432/apidatabase"
+#https://git.heroku.com/reinhard-api.git
+#https://reinhard-api.herokuapp.com/
 
 dotenv_path = join(dirname(__file__), '.env')
 load_dotenv(dotenv_path)
